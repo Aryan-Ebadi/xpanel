@@ -139,7 +139,10 @@
         <transition name="list" appear>
           <a-card hoverable>
             <a-row>
+
+            <a-col :xs="24" :sm="24" :lg="12">
                 aaaaaaaaa
+            </a-col>
               <a-col :xs="24" :sm="24" :lg="12">
                 {{ i18n "pages.inbounds.totalDownUp" }}:
                 <a-tag color="green">[[ sizeFormat(total.up) ]] / [[ sizeFormat(total.down) ]]</a-tag>
